@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework_04</title>
+    <title>Homework_05</title>
     <link 
     href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
     rel="stylesheet"/>
@@ -25,7 +25,7 @@
         </nav>
             <ul class="contact-list list ">
                 <li class ="item ">
-                    <a href="mailto:info@devstudio.com" class="contact link  ">
+                    <a href="mailto:info@devstudio.com" class="contact link">
                         <svg class="icon-head" width="16" height="12">
                             <use href="./img/symbol-defs.svg#icon-envelope">
                             </use>
@@ -48,7 +48,7 @@
     <section class="hero">
         <div class="container">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="button">Заказать услугу</button>
+            <button data-modal-open  type="button" class="button">Заказать услугу</button>
         </div>
     </section>
     <!-- Принципы -->
@@ -93,13 +93,28 @@
             <h2 class="section-title">Чем мы занимаемся</h2>
             <ul class="work-list list">
             <li class="section-item">
-                <img src="./img/img.jpg" alt="Наша работа" width="370" />
+                <div class="doing">
+                    <img src="./img/img.jpg" alt="Наша работа" width="370" />
+                    <div class="doing-thumb">
+                        <h3 class="text-doing">Десктопные приложения</h3>
+                    </div>
+                </div>
             </li>
             <li class="section-item">
-                <img src="./img/imge.jpg" alt="Наша работа" width="370" />
+                <div class="doing">
+                    <img src="./img/imge.jpg" alt="Наша работа" width="370" />
+                    <div class="doing-thumb">
+                        <h3 class="text-doing">Мобильные приложения</h3>
+                    </div>
+                </div>
             </li>
             <li class="section-item">
-                <img src="./img/imges.jpg" alt="Наша работа" width="370" />
+                <div class="doing">
+                    <img src="./img/imges.jpg" alt="Наша работа" width="370" />
+                    <div class="doing-thumb">
+                        <h3 class="text-doing">Дизайнерские решения</h3>
+                    </div>
+                </div>
             </li>
             </ul>
         </div>

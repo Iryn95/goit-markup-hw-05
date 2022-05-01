@@ -828,7 +828,7 @@ img{
 }
 
 .join-link {
-    position: relative;
+    
     padding: 0;
     width: 44px;
     height: 44px;
@@ -838,13 +838,13 @@ img{
     fill: #FFFFFF;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
-    transition:bacground 250ms cubic-bezier(0.4,0,0.2,1), border-radius 250ms cubic-bezier(0.4,0,0.2,1);
+    /* transition:bacground 250ms cubic-bezier(0.4,0,0.2,1), border-radius 250ms cubic-bezier(0.4,0,0.2,1); */
     
 }
 
-/* .joint-icon{
+.joint-icon{
     transition:bacground 250ms cubic-bezier(0.4,0,0.2,1), border-radius 250ms cubic-bezier(0.4,0,0.2,1);
-} */
+}
 
 .join-icon:not(:last-child) {
     margin-right: 10px;
